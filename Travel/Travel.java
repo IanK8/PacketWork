@@ -1,15 +1,19 @@
-public class Travel{
+public class Travel {
     private int people;
-    public Travel (int n){
+
+    public Travel(int n) {
         people = n;
     }
-    public int goByVan(){
-        n = 
-    }
-    public int goByCanoe(){
 
+    public int goByVan() {
+        return (people + 7) / 8; 
     }
-    public int goByPlane(){
 
+    public int goByCanoe() {
+        return (people + 2) / 3; 
+    }
+
+    public int goByPlane() {
+        return (people + 11) / 12; 
     }
 }
